@@ -49,5 +49,18 @@ y_pred = knn.predict(x_test)
 
 print(accuracy_score(y_pred,y_test))
 
+print(df.describe)
+
 #========================================
+
+
+# def input_features():
+
+#     price = streamlit.number_input("enter the price : ")
+#     direction_up = streamlit.number_input("enter the direction up : ")
+#     direction_constant = streamlit.number_input("enter the direction constant : ")
+#     direction_down = streamlit.number_input("enter the direction down : ")
+#     past_price = streamlit.number_input("enter the past_price : ")
+#     past_news = streamlit.number_input("enter the past news : ")
+
 
