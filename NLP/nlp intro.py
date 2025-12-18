@@ -24,7 +24,7 @@
 # =====================
 
 """
->> universities are amazing places for studying and learning new things.
+# universities are amazing places for studying and learning new things.
 
 >> remove the stop words 
    eg : are, for, and, the, is, etc.
@@ -47,12 +47,28 @@
         good
         boy                        # word by word output is called tokens  ( 1 - gram)
 
->> n - gram method
+# n - gram method
     to split the text into smaller parts (words or sentences) but in a group of n size
     
     eg : vinay is    >> 2 - gram (bi - gram)
          a good
+
+>> Vectorization
+   to convert text into numerical form so that machine can understand it
+       >> Term Frequency (TF)
+       >> Inverse Document Frequency (IDF)
+      TFidvectorizer()
+      NLTK
+
+      Term Frequency (TF) = total count of a word in a sentence / total no of words in that sentence
+      Inverse Document Frequency (IDF) = log ( TD/AD)  = log(Total documents / available documents )
             
+>> similarity
+   =========
+   cosine similarity  >> used to identify the similarity between different documents.
+
+   if cosine similarity == 1 it matches better result will be provided
+   if consine similarity == 0 the documents does not matches
 
 
 
