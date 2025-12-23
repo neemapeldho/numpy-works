@@ -23,12 +23,7 @@
 # # Must Implement Steps : 
 # # =====================
 
-# """
-# <<<<<<< HEAD
 # # universities are amazing places for studying and learning new things.
-# =======
-# >> universities are amazing places for studying and learning new things.
-# >>>>>>> d2a6df3517b1cdda6afe518f7d16ad920bced32b
 
 # >> remove the stop words 
 #    eg : are, for, and, the, is, etc.
@@ -51,11 +46,10 @@
 #         good
 #         boy                        # word by word output is called tokens  ( 1 - gram)
 
-# <<<<<<< HEAD
+
 # # n - gram method
 # =======
 # >> n - gram method
-# >>>>>>> d2a6df3517b1cdda6afe518f7d16ad920bced32b
 #     to split the text into smaller parts (words or sentences) but in a group of n size
     
 #     eg : vinay is    >> 2 - gram (bi - gram)
